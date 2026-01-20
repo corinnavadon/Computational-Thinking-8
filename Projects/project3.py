@@ -39,11 +39,6 @@ for i in range(50):
     window.update()
     time.sleep(0.1)
 
-message1 = create_sprite("alien",-50,50)
-message1.color("blue")
-message1.write("Finish!",font = ("Arial", 50, "normal"))
-message1.hideturtle()
-
 print(" ")
 
 # # Section 4 - Winner
