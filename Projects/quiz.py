@@ -18,7 +18,7 @@ if answer1 == "A":
 elif answer1 == "B":
     hamster_points += 1
     fish_points += 1
-elif answer1 == "A" or "B":
+elif answer1 == "A" or  answer1 == "B":
     rabbit_point += 1
 
 input(" ")
@@ -56,7 +56,7 @@ elif Answer4 == "B":
     hamster_points +=1
 elif Answer4 == "C":
     rabbit_point += 1 
-elif Answer4 == "A" or "C":
+elif Answer4 == "A" or Answer4 == "C":
     cat_point += 1
 
 
